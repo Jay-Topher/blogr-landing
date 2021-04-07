@@ -318,3 +318,42 @@ body {
   grid-area: 3 / 2 / 4 / 3;
 }
 /* end of fourth section */
+/* footer section */
+.footer {
+  background-color: var(--very-dark-black-blue);
+  color: var(--white-text);
+  border-top-right-radius: 10rem;
+  text-transform: capitalize;
+  font-family: Ubuntu, sans-serif;
+  /* height: 40vh; */
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 7rem 0;
+}
+
+.footer-main p {
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+
+}
+
+.footer-main a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--white-text);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.footer-main a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.footer-main ul {
+  list-style: none;
+}
+/* end of footer section */
