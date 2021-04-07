@@ -258,3 +258,24 @@ body {
     grid-area: <row start> / <column start> / <row end> / <column end>;
 */
 /* end of second-section */
+/* third section */
+.third-section {
+  background-image: linear-gradient(
+      to right,
+      var(--very-dark-gray-blue),
+      var(--very-dark-desaturated-blue)
+    ),
+    url("images/bg-pattern-circles.svg");
+    height: 40vh;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    color: var(--white-text);
+    background-repeat: no-repeat;
+    background-position: left 80%;
+}
+
+.third-section-main {
+    display: flex;
+    align-items: center;
+}
+/* end of third section */
