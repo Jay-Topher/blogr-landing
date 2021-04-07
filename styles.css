@@ -204,3 +204,57 @@ body {
 }
 
 /* end of  header section */
+/* second-section */
+.second-section {
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  background-image: url("/images/illustration-editor-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 135% center;
+}
+
+.second-section-main {
+  grid-area: 1 / -1/ -1/ 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  grid-gap: 2rem;
+  overflow-x: hidden;
+}
+
+.second-section-title {
+  grid-area: 1 / 1 / 2 / 4;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.second-section-item {
+  font-size: 1.6rem;
+  width: 80%;
+}
+
+.second-section-item-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.second-section-item-body {
+  font-size: 1.6rem;
+}
+
+.second-section-item-1 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.second-section-item-2 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+/* 
+    grid-area: <row start> / <column start> / <row end> / <column end>;
+*/
+/* end of second-section */
